@@ -1,0 +1,14 @@
+
+
+group = 'org.example.api'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    flatDir{
+        dirs '../libs'
+    }
+}
+
+dependencies {
+    implementation project(':build-tools-clevertec-core')
+}

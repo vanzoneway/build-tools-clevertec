@@ -1,0 +1,4 @@
+rootProject.name = 'build-tools-clevertec'
+include 'build-tools-clevertec-api'
+include 'build-tools-clevertec-core'
+

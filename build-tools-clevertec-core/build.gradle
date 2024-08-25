@@ -1,0 +1,14 @@
+
+group = 'org.example.core'
+version = '1.0'
+
+repositories {
+
+    flatDir{
+        dirs '../libs'
+    }
+}
+
+dependencies {
+    implementation 'ru.clevertec:utils:1.3.5'
+}
